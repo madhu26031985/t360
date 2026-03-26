@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
+    <title>T360 | Ultimate Club Management Platform for Toastmasters</title>
+    <meta name="description" content="Transform your Toastmasters club with our comprehensive management platform. Streamline meetings, role booking, member management, and Pathways tracking. Start your free trial today!" />
+    <meta name="keywords" content="Toastmasters, club management, meeting management, role booking, member management, speaking club" />
+    <meta property="og:title" content="T360 | Ultimate Club Management Platform for Toastmasters" />
+    <meta property="og:description" content="Transform your Toastmasters club with our comprehensive management platform. Streamline meetings, role booking, member management, and Pathways tracking. Start your free trial today!" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://T360.in" />
+    <meta property="og:image" content="https://T360.in/brand.png" />
+    <meta name="theme-color" content="#3B82F6" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  </head>
+  <script>
+	(function(d,t) {
+		var BASE_URL="http://chatwoot-rails-api-service:80";
+		var CDN_URL="https://chat-widget.hiverhq.com/chat-widget";
+		var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+		g.src=CDN_URL+"/js/sdk.js";
+		g.defer = true;
+		g.async = true;
+		s.parentNode.insertBefore(g,s);
+		g.onload=function(){
+			window.chatwootSDK.run({
+				websiteToken: 'GKbwxHbnWsmP31XyRZgKXY6B',
+				baseUrl: BASE_URL
+			})
+		}
+	})(document,"script");
+</script>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+</Action>
