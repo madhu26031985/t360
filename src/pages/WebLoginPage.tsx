@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 
 export default function WebLoginPage() {
   useEffect(() => {
-    window.location.href = 'https://appt360.netlify.app/weblogin/';
+    window.location.href = 'https://app.t360.in/weblogin/';
   }, []);
 
   return (
